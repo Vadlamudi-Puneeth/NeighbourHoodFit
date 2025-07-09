@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nani Home Rentals</title>
+  <link rel="stylesheet" href="../css/home.css" />
+</head>
+<body>
+  <div class="entire-home-div">
+    <div class="upper-section">
+      <div class="upper-section-owner">
+        <img src="../assets/nanihomeslogo.jpg" id="upper-section-owner-id" alt="Logo" />
+        nanihomerentals.com
+      </div>
+      <div class="upper-section-grid">
+        <button id="upper-section-grid-btn"  onclick="window.location.href='../html/Register.html'" > Register </button>
+        <button id="upper-section-grid-btn"  onclick="window.location.href='../html/Login.html'" >Login </button>
+      </div>
+    </div>
+
+    <div class="hero-section">
+      <h1>Houses for Rent in India</h1>
+      <p>1k+ listings added daily and all are verified</p>
+
+      <div class="search-bar">
+        <select id="state-select"></select>
+        <input type="text" id="search-input" placeholder="     Search for locality" />
+        <button id="search-button">Search</button>
+      </div>
+    </div>
+
+    <div class="recent-searches">
+      <h3 style="font-weight: lighter;font-size: 14px;" >Recent Searches</h3>
+      <p id="no-searches">No recent searches yet.</p>
+      <ul id="recent-list"></ul>
+    </div>
+
+    <div id="search-results"></div>
+
+
+    <div class="footer">
+      <footer class="foot">
+        nanihomerentals.com © 2025
+
+        <div class="all-images-in-footer" >
+        <a href="https://github.com/Vadlamudi-Puneeth"  rel="noopener noreferrer">
+            <img src="../assets/github.jpeg" id="footer-img1" alt="GitHub Logo" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/vadlamudi-puneeth/"  rel="noopener noreferrer">
+            <img src="../assets/linkedIn.png" id="footer-img1" alt="GitHub Logo" />
+        </a>
+
+        <a href="https://x.com/NaniPuneeth11"  rel="noopener noreferrer">
+            <img src="../assets/twitter.png" id="footer-img1" alt="GitHub Logo" />
+        </a>
+
+        <a href="https://www.instagram.com/nani_puneeth?igsh=cWthZzB5OG9xZDV2"  rel="noopener noreferrer">
+            <img src="../assets/insta.jpeg" id="footer-img1" alt="GitHub Logo" />
+        </a>
+      
+      </div>
+
+      </footer>
+    </div>
+  </div>
+
+  <script src="../javascript/HomePage.js"></script>
+</body>
+</html>

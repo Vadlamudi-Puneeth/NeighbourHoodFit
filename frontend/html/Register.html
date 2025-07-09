@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Register</title>
+  <link rel="stylesheet" href="../css/home.css" />
+</head>
+<body>
+
+  <h2>Register</h2>
+
+  <form id="registerForm" method="post">
+    <div>
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullName" name="fullName" required />
+    </div>
+
+    <div>
+      <label for="mobileNo">Mobile Number</label>
+      <input type="text" id="mobileNo" name="mobileNo" required />
+    </div>
+
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+    </div>
+
+    <div>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+    </div>
+
+    <div>
+      <label for="maritalStatus">Marital Status</label>
+      <select id="maritalStatus" name="maritalStatus" required>
+        <option value="">Select</option>
+        <option value="Single">Single</option>
+        <option value="Married">Married</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="noOfFamilyMembers">Number of Family Members</label>
+      <input type="number" id="noOfFamilyMembers" name="noOfFamilyMembers" min="1" required />
+    </div>
+
+    <div>
+      <label for="profession">Profession</label>
+      <input type="text" id="profession" name="profession" />
+    </div>
+
+    <div>
+      <label for="twoWheelerCount">Two-Wheeler Count</label>
+      <input type="number" id="twoWheelerCount" name="twoWheelerCount" min="0" />
+    </div>
+
+    <div>
+      <label for="fourWheelerCount">Four-Wheeler Count</label>
+      <input type="number" id="fourWheelerCount" name="fourWheelerCount" min="0" />
+    </div>
+
+    <div>
+      <button type="submit"  >Register</button>
+    </div>
+  </form>
+
+  <script src="../javascript/HomePage.js"></script>
+</body>
+</html>

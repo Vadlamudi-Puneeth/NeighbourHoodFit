@@ -1,0 +1,192 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.upper-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #E2E2E2;
+}
+
+.upper-section-owner{
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#upper-section-owner-id{
+    height: 26px;
+}
+
+.upper-section-grid{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: black;
+}
+
+#upper-section-grid-btn{
+    cursor: pointer;
+    color: black;
+    transition: color 0.3sec ease ;
+}
+
+#upper-section-grid-btn{
+    color: #007bff;
+}
+
+.entire-home-div{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.hero-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-bar select,
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.recent-searches {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.footer{
+    background-color:#E2E2E2 ;
+    padding: 35px;
+    margin-top: auto;
+    justify-content: space-between;
+}
+
+.all-images-in-footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap:15px;
+}
+
+#footer-img1,
+#footer-img2,
+#footer-img3,
+#footer-img4{
+    height: 20px;
+    width: 20px;
+}
+
+
+/* ______________  This is for Registration_______________ */
+
+form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 70%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #E2E2E2;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ______________  This is for Login */
+
+ form {
+      max-width: 300px;
+      margin: 80px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: sans-serif;
+    }
+    form div {
+      margin-bottom: 12px;
+    }
+    label {
+      display: block;
+      margin-bottom: 4px;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      padding: 6px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      background-color: #E2E2E2;
+      color: black;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+        color: white;
+      /* background-color: #0056b3; */
+    }
